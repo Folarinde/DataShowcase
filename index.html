@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Showcase</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header><h2>My Personal Data Showcase</h2></header>
+    <main>
+      <div class="mini-container">
+        <label>Slack Name :</label>
+        <span data-testid="slackUserName">Folarinde Olusola</span>
+      </div>
+      <div class="image-container">
+        <img
+          src="Slack_Display_Picture.JPG"
+          alt="Folarinde Olusola"
+          data-testid="slackDisplayImage"
+          width="50%"
+        />
+      </div>
+      <div class="mini-container">
+        <label>Current Day of the Week :</label>
+        <span data-testid="currentDayOfTheWeek" id="current-day"></span>
+      </div>
+      <div class="mini-container">
+        <label>Current UTC Time :</label>
+        <span data-testid="currentUTCTime" id="current-time"></span>
+      </div>
+      <div class="mini-container">
+        <label>Track :</label>
+        <span data-testid="myTrack">Front-End Track</span>
+      </div>
+    </main>
+    <footer><a href="" data-testid="githubURL">GitHub URL</a></footer>
+    <script src="main.js"></script>
+  </body>
+</html>
