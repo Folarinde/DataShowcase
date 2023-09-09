@@ -33,7 +33,7 @@ label{
     padding: 0 16px;
 }
 span{
-    font-size: 1.2em;
+    font-weight: bolder;
 }
 .image-container{
     display: flex;
