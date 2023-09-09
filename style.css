@@ -24,9 +24,16 @@ img{
 }
 .mini-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: baseline;
     padding: 4px 50px;
     flex-wrap: wrap;
+}
+label{
+    padding: 0 16px;
+}
+span{
+    font-size: 1.2em;
 }
 .image-container{
     display: flex;
